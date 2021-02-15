@@ -1,0 +1,1 @@
+### While there are no resource files here right now, this folder is important to have in the project structure.
