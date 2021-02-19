@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Text?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="whatexe.dungeoncrawler.controllers.BController"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <Button fx:id="switchButton" layoutX="257.0" layoutY="187.0" mnemonicParsing="false" onAction="#switchToSceneA" text="Switch Scene" />
+        <Text fx:id="thisText" layoutX="278.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Scene B" />
+    </children>
+
+</AnchorPane>
