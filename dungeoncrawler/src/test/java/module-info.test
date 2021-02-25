@@ -1,0 +1,8 @@
+--add-modules
+  org.testfx
+
+--add-reads
+  whatexe.dungeoncrawler=org.testfx,org.testfx.junit5
+
+--add-exports
+  javafx.graphics/com.sun.javafx.application=org.testfx
