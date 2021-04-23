@@ -1,0 +1,23 @@
+@import "MainApp.css";
+
+.label {
+    -fx-text-fill: #22bd41;
+    -fx-font-family: Minecraftia;
+}
+
+.button {
+     -fx-text-fill: #22bd41;
+     -fx-font-family: Minecraftia;
+     -fx-background-color: #100f0f;
+     -fx-border-color: derive(white, -35%);
+     -fx-border-width: 3.5;
+     -fx-font-size: 30px;
+ }
+
+.button:hover {
+    -fx-background-color: derive(white, -80%);
+}
+
+.bg-pane {
+    -fx-background-color: #100f0f;
+}
