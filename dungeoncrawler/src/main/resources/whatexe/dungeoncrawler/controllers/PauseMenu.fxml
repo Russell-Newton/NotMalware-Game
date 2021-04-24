@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="284.0" prefWidth="418.0" style="-fx-border-color: derive(white, -35%); -fx-border-width: 3.5;" styleClass="bgpane" stylesheets="@Configuration.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="whatexe.dungeoncrawler.controllers.PauseMenuController">
+   <children>
+      <Button maxHeight="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#continuePlay" prefHeight="62.0" style="-fx-font-size: 30px;" text="Resume Play">
+         <VBox.margin>
+            <Insets bottom="50.0" />
+         </VBox.margin>
+      </Button>
+      <Button maxHeight="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#quit" prefHeight="62.0" style="-fx-font-size: 30px;" text="Quit" />
+   </children>
+</VBox>
