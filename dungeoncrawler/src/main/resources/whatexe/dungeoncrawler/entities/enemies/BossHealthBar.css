@@ -1,0 +1,23 @@
+@import "../../controllers/MainApp.css";
+
+.health-progress-bar .bar {
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+}
+
+.health-progress-bar .track {
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+}
+
+.health-progress-bar {
+    -fx-accent: derive(firebrick, +10%);
+    -fx-border-width: 2px;
+    -fx-border-color: derive(white, -35%);
+}
+
+.label {
+    -fx-font-family: Minecraftia;
+    -fx-font-size: 24px;
+    -fx-text-fill: derive(firebrick, +10%);
+}
