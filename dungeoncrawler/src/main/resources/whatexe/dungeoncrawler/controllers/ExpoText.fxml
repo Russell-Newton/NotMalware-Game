@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" styleClass="bg-styled" stylesheets="@MainApp.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="whatexe.dungeoncrawler.controllers.ExpoTextController">
+   <children>
+      <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="666.0" style="-fx-background-color: #100f0f;">
+         <children>
+            <Label fx:id="expoLabel" style="-fx-font-family: Minecraftia; -fx-text-fill: #22bd41; -fx-font-size: 18px;" text="Exposition here." wrapText="true">
+               <VBox.margin>
+                  <Insets bottom="35.0" left="60.0" right="60.0" top="40.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="pressAnyKeyLabel" style="-fx-font-family: Minecraftia; -fx-text-fill: derive(white, -35%);" text="Press any key to continue...">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="60.0" right="60.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</VBox>

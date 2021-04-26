@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox prefHeight="64.0" prefWidth="800.0" style="-fx-background-color: transparent;" stylesheets="@BossHealthBar.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="whatexe.dungeoncrawler.controllers.BossHealthBarController">
+   <children>
+      <Label maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="38.0" prefWidth="171.0" text="Boss Health">
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </Label>
+      <ProgressBar fx:id="healthBar" prefHeight="25.0" prefWidth="800.0" progress="0.0" styleClass="health-progress-bar" />
+   </children>
+</VBox>
